@@ -1,0 +1,65 @@
+baseURL = 'https://ggsdduyyds.github.io/'
+defaultContentLanguage = "zh-cn"
+languageCode = 'zh-cn'
+title = 'Ggsddu Yyds'
+theme = "notebook"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Good good study day day up is YYDS"
+  mainSections = ["post","posts"]
+  logo = "img/ggsddu.png" # Expecting square dimensions
+  favicon = "img/ggsddu.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Ggsddu Yyds"
+  website = "https://ggsdduyyds.github.io"
+  # email = "ggsdduyyds@foxmail.com"
+  github = "ggsdduyyds"
+
+[[menu.main]]
+    name = "博客"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "关于"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "标签"
+    url = "tags"
+    weight = 3
