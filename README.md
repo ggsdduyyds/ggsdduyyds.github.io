@@ -1,0 +1,1 @@
+Powered by [Hugo](https://gohugo.io), the theme is modified based on [Beautiful Hugo](https://github.com/halogenica/beautifulhugo).
